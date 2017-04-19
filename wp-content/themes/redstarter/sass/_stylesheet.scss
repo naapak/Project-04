@@ -1,0 +1,248 @@
+
+.teal {color:teal}
+.flex{display: flex;}
+.justifyCenter {justify-content: center;}
+h1, h2, h3, h4, h5, h6, p, a, li { }
+.caps {text-transform: uppercase;}
+.bold{font-family: MerriweatherBold; }
+.lighter{font-family:MerriweatherLight;}
+.textCenter {text-align: center;}
+.flexCenter {justify-content: center;}
+.marginBottom { margin-bottom: 2rem; }
+.greenButton, .search-pagination a {padding: 10px; background-color: teal; color: white; text-shadow:none; margin-bottom:1rem; box-shadow:none;}
+/* navigation */
+.logonavi {justify-content: space-between; align-items: center; padding-right: 30px; padding-left: 30px;}
+.navigation p {font-size: 50px; padding:20px;}
+.logo  {height:3rem; width:3rem;}
+.logoFull {display: flex; justify-content: center; align-items: center; }
+.logoFull img {width: 30rem; height: 30rem; padding-top: 20vh;}
+.white {color:white;}
+.textNone{text-decoration:none; text-shadow:none; }
+
+
+.main-navigation a {color: white; font-family:MerriweatherLight;}
+
+.journalHeader{height: 100vh;}
+.banner  {height: 100vh; background: url(../../assets/images/logos/inhabitent-logo-full.svg) center no-repeat, linear-gradient(rgba(0,0,0,0.2) 100%,transparent), url(../../assets/images/home-hero.jpg)  no-repeat;  background-size: 25%,cover,cover;
+}
+.bannerAbout { height: 100vh;  background: linear-gradient(rgba(0,0,0,0.2) 100%,transparent), url(../../assets/images/about-hero.jpg) no-repeat; background-size: cover,cover; }
+.teal-border { border-bottom: 1px solid teal;}
+.teal-navi a, { color: teal; }
+.teal-navi .top-search-menu label:before {color: teal;}
+#site-navigation {    padding-top: 10px;}
+.aboutText {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center}
+
+.aboutWidth {width: 75%; padding-top:5rem; padding-bottom:5rem; }
+
+#archives-3 ul,  {
+    padding-left: 0px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#archives-3 h2  {
+   
+    margin-bottom: 10px;
+    
+}
+.search-pagination a {text-decoration:none; padding-top: 5px;
+    padding-bottom: 5px; }
+#main {margin-bottom:20vh;}
+.search-pagination {margin-top:10vh; padding-top: 3vh; border-top:1px solid grey; }
+
+
+/* footer */
+h5 {color: #CF7D42}
+i {padding-right: 10px; padding-left: 5px;}
+.flex {
+display: flex;
+}
+
+.footerImage {
+	background:  url("../../assets/images/dark-wood.png") no-repeat;
+	background-size: cover;
+	color: white;
+}
+.divider {
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.info{
+padding: 20px;
+justify-content: flex-start;
+
+}
+.contactInfo{margin-right: 100px;margin-left: 50px}
+.contactInfo a{color:white;}
+.footerlogoFull img {  padding-top: 0px;
+    width: 350px;
+    height: 200px;
+    padding-bottom: 120px;
+    padding-right: 100px;}
+
+.copyright{ padding-bottom: 40px; }
+
+.icons a {color:white;}
+.icons a:hover {
+	color: blue;
+}
+
+
+
+/* seach bar */
+.top-search-menu .search-submit{
+  display: none;
+  
+}
+
+.top-search-menu label:before{
+  font-family: FontAwesome;
+  content: '\f002';
+  display: inline-block;
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+}
+
+.top-search-menu .search-field{
+  height: 26px;
+  padding: 3px 5px 3px 23px;
+  font-weight: normal;
+
+}
+
+.fieldset{border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;}
+
+.top-search-menu label:before{
+ color: #fff;
+}  
+
+.top-search-menu.input-expanded label:before{
+ color: #333;
+}  
+
+.top-search-menu input{
+  opacity: 0;
+  width: 0;
+}
+
+.top-search-menu.input-expanded input{
+  opacity: 1;
+  width: 140px;
+}
+
+/* products shop stuff in home page */
+.shopCategories {
+  width: 100%;
+  border: 1px solid grey; border-top: 6px solid grey; 
+  margin-top: 2rem; 
+  margin-bottom: 5rem;
+  margin-right: 2%;
+  margin-left:2%;
+}
+
+.shopCategories img { height: 120px; width: 120px; padding-top:2rem;}
+
+.journal-container {
+  justify-content: center;
+  margin-bottom: 10vh;
+
+  
+}
+.journal-item{ width:30%;}
+.journal-header{
+  
+  border: 1px solid grey; 
+  margin-top: 2rem; 
+  margin-bottom: 5rem;
+  margin-right: 2%;
+  margin-left:2%;
+      padding-bottom: 10px;
+}
+.journal-header img {margin-bottom:10px;}
+.journal-text {
+color: #248A83;
+}
+.image-wrapper { height: 300px;  }
+
+/* products adventures stuff in home page */
+.adventure-container{ 
+-ms-flex: auto;
+flex: auto; 
+margin-bottom: 5px; margin-right: 5px;justify-content: center;}
+
+.firstDiv{ width: 45%; height: 80vh; margin-right: 10px; margin-bottom:1vh;}
+.divSecond { width: 45%; }
+.secondDivtop { height:40vh; display:flex; margin-bottom:1vh;}
+.thirdDiv {display:flex; }
+.thirdDivtop{ height:39vh; margin-right: 10px; }
+.fourthDiv{  height:39vh; }
+.adventureButton {margin-left:4rem;}
+/* findUs stuff in page */
+.findUs { flex-direction: row; padding-left: 3rem; }
+.mainBody  {width: 120%; padding-right:5rem;}
+.contactForm  {margin-right: 10rem; margin-bottom: 10rem;}
+.mainSideBar { width:40%; border-left: 1px solid teal; padding-left: 10px; }
+.wpcf7-form-control  {background-color:rgb(232, 232, 232);}
+.wpcf7-submit {background-color:red;}
+// .mainSideBar textwidget {width:100%; border-right:20px;}
+
+.acf-map {
+  width: 90%;
+  height: 400px;
+  border: #ccc solid 1px;
+  margin: 20px 0;
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+   max-width: inherit !important;
+}
+
+/* product page stuff in home page */
+.productsType { justify-content:center;}
+.productsType a {margin: 10px 10px; text-decoration:none; font-size:20px;}
+.ProductItem { height:40vh; width:300px;}
+.ProductsList { flex-wrap: wrap; justify-content:center; }
+.image-wrapper2 {  width:100%; border-bottom: 3px solid grey;}
+
+// 
+.adventure-container2 { -ms-flex: auto;
+flex: auto; 
+margin-bottom: 5px; margin-right: 5px;justify-content: center; position:relative; flex-wrap: wrap; margin-bottom:10vh; 
+}
+.contentdiv { position:absolute; margin-left:1vh; color:white;}
+.adventure-header2 {width:45%; margin:1vh 1vh;  }
+// .adventure-header2 { background: linear-gradient(rgba(0,0,0,0.9) 100%,transparent); z-index: 999; }
+
+//taxonamy-product page//
+.content-area2 {padding-bottom:10vh;}
+#comment,#author,#email,#url {background-color:rgb(232, 232, 232);}
+//single-product page//
+.singleProduct {padding:10vh 5vh; margin-right:5vh; margin-left:5vh;}
+.productImage{ width:50%; margin-right:5vh;}
+.productData {width: 40%;}
+.productData h1 {color:rgb(216, 139, 56); margin-top:0; text-transform: uppercase;}
+
+.icons2 a, .readMore {text-decoration:none; color: black; padding: 10px 20px; border:1px solid black; margin-right:2px; text-align:center;margin-bottom: 2vh;}
+.readMore {width:25%; font-size:15px}
+.contentPictures {height:80vh; flex-direction:column; justify-content: space-between;}
+.contentPictures p {background-color:teal; align-self:flex-end; margin-bottom: 0px; padding-right:10px; padding-left:10px;}
+.contentTitles {background-color:teal; width:50%; color:white; text-decoration:none; padding-left:20px;}
+.entry-footer-content {padding:10px 0 10px 0px;}
+.cat-links{margin-right:20px;}
+.cat-links a, .tags-links a, .nav-previous a, .widget_archive a { color:teal; text-decoration: none;}
+
+
+
